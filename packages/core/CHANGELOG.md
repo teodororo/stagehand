@@ -1,5 +1,21 @@
 # @browserbasehq/stagehand
 
+## 3.5.0
+
+### Minor Changes
+
+- [#2127](https://github.com/browserbase/stagehand/pull/2127) [`78bcde8`](https://github.com/browserbase/stagehand/commit/78bcde88e28f147acc6ca9aef9753cd96c870c35) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - Add `ignoreDefaultArgs` option to selectively remove chrome-launcher's built-in default flags (e.g. `--disable-extensions`) when running locally
+
+### Patch Changes
+
+- [#2107](https://github.com/browserbase/stagehand/pull/2107) [`8fc16d2`](https://github.com/browserbase/stagehand/commit/8fc16d2e1845807103da6e62928b28e0de03ab90) Thanks [@miguelg719](https://github.com/miguelg719)! - Fix Anthropic CUA `triple_click` action mapping.
+
+- [#2126](https://github.com/browserbase/stagehand/pull/2126) [`ebbdcd3`](https://github.com/browserbase/stagehand/commit/ebbdcd33cbd137d36c9469c5ef0f531ee45a0bd8) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - fix(core): import ToolSet from ai public export
+
+- [#2120](https://github.com/browserbase/stagehand/pull/2120) [`12703a6`](https://github.com/browserbase/stagehand/commit/12703a6659853e2afe2d28df71d8a9b916f9df65) Thanks [@miguelg719](https://github.com/miguelg719)! - Fix structuredOutputMode for newer Anthropic models
+
+- [#2116](https://github.com/browserbase/stagehand/pull/2116) [`cb586a1`](https://github.com/browserbase/stagehand/commit/cb586a14e46e616caa712afa6b7ceb4dc42b7fc6) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - include "[selected]" or "[checked]" state in snapshot
+
 ## 3.4.0
 
 ### Minor Changes
